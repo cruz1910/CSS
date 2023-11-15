@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidas de Segurança Cibernética</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #3498db;
+            padding: 15px;
+            color: #fff;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Medidas de Segurança Cibernética</h1>
+    </header>
+
+    <ul>
+        <li>
+            <i class="icon fas fa-shield-alt"></i>
+            Firewall - Um firewall protege a rede controlando o tráfego com base em regras de segurança.
+        </li>
+
+        <li>
+            <i class="icon fas fa-lock"></i>
+            SSL/TLS - Protocolos que garantem a privacidade e integridade dos dados transmitidos pela internet.
+        </li>
+
+        <li>
+            <i class="icon fas fa-shield-virus"></i>
+            Antivírus - Programas que detectam e removem software malicioso de computadores e redes.
+        </li>
+
+        <!-- Adicione mais itens conforme necessário -->
+    </ul>
+
+</body>
+</html>
