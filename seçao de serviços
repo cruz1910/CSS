@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços de Segurança</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        h3 {
+            color: #e74c3c;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        section {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h2>Serviços de VPN</h2>
+        <p>Uma VPN (Rede Privada Virtual) oferece os seguintes serviços de segurança:</p>
+        
+        <h3>1. Criptografia de Dados</h3>
+        <p>A VPN utiliza criptografia para proteger a comunicação entre dispositivos, tornando os dados inacessíveis a terceiros.</p>
+
+        <h3>2. Anonimato na Internet</h3>
+        <p>Ao mascarar o endereço IP do usuário, a VPN ajuda a preservar a privacidade online e dificulta o rastreamento.</p>
+    </section>
+
+    <section>
+        <h2>Serviços de Firewall</h2>
+        <p>Um firewall oferece os seguintes serviços de segurança:</p>
+
+        <h3>1. Filtragem de Tráfego</h3>
+        <p>O firewall controla o tráfego de entrada e saída, permitindo ou bloqueando com base em regras predefinidas.</p>
+
+        <h3>2. Proteção contra Ataques</h3>
+        <p>Identificação e bloqueio de tentativas de ataques, como ataques de negação de serviço (DoS) e intrusões.</p>
+    </section>
+
+    <section>
+        <h2>Serviços de Antivírus</h2>
+        <p>Um antivírus oferece os seguintes serviços de segurança:</p>
+
+        <h3>1. Detecção de Malware</h3>
+        <p>Escaneamento em tempo real e detecção de software malicioso, incluindo vírus, trojans e spyware.</p>
+
+        <h3>2. Atualizações de Definições</h3>
+        <p>Manutenção de uma base de dados atualizada para identificar novas ameaças e vulnerabilidades.</p>
+    </section>
+
+</body>
+</html>
