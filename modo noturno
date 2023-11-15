@@ -1,0 +1,84 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolos de Segurança Cibernética</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            transition: background-color 0.5s;
+        }
+
+        header {
+            background-color: #3498db;
+            padding: 15px;
+            color: #fff;
+            text-align: center;
+        }
+
+        section {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Modo noturno */
+        body.dark-mode {
+            background-color: #2c3e50;
+            color: #fff;
+        }
+
+        body.dark-mode header {
+            background-color: #2c3e50;
+        }
+
+        body.dark-mode section {
+            border-color: #465a6b;
+            background-color: #34495e;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Protocolos de Segurança Cibernética</h1>
+    </header>
+
+    <section>
+        <h2>Protocolo SSL/TLS</h2>
+        <p>O SSL/TLS é um protocolo de segurança que garante a privacidade e integridade dos dados transmitidos pela internet.</p>
+    </section>
+
+    <section>
+        <h2>Protocolo IPsec</h2>
+        <p>O IPsec é utilizado para garantir a segurança das comunicações em redes IP, fornecendo autenticação e criptografia.</p>
+    </section>
+
+    <section>
+        <h2>Protocolo SSH</h2>
+        <p>O SSH é um protocolo de rede utilizado para acessar de forma segura servidores remotos, oferecendo criptografia e autenticação.</p>
+    </section>
+
+    <button onclick="toggleDarkMode()">Modo Noturno</button>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+</html>
