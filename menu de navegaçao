@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu de Navegação</title>
+    <style>
+        /* Estilos para o menu de navegação */
+        ul.nav-menu {
+            list-style: none;
+            padding: 0;
+            background-color: #333;
+            text-align: center;
+        }
+        ul.nav-menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        ul.nav-menu li a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+        ul.nav-menu li a:hover {
+            background-color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+</body>
+</html>
+
+</body>
+</html>
