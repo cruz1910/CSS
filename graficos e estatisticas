@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Estatísticas - Incidentes de Segurança Cibernética</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .painel {
+            width: 300px;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .barra {
+            margin-bottom: 10px;
+            height: 20px;
+            background-color: #3498db;
+            border-radius: 5px;
+        }
+
+        .barra.phishing {
+            width: 70%;
+        }
+
+        .barra.malware {
+            width: 50%;
+        }
+
+        .barra.dos {
+            width: 30%;
+        }
+
+        .legenda {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .legenda span {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="painel">
+        <div class="barra phishing"></div>
+        <div class="barra malware"></div>
+        <div class="barra dos"></div>
+
+        <div class="legenda">
+            <span>Phishing</span>
+            <span>Malware</span>
+            <span>DoS</span>
+        </div>
+    </div>
+
+</body>
+</html>
