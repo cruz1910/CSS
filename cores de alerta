@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Alertas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .alert-atencao {
+            background-color: yellow;
+            color: #333;
+        }
+
+        .alert-perigo {
+            background-color: red;
+            color: white;
+        }
+
+        .alert-informacao {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="alert alert-atencao">
+        Atenção: Este é um alerta de atenção!
+    </div>
+
+    <div class="alert alert-perigo">
+        Perigo: Este é um alerta de perigo!
+    </div>
+
+    <div class="alert alert-informacao">
+        Informação: Este é um alerta de informação!
+    </div>
+
+</body>
+</html>
