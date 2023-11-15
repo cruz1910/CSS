@@ -1,0 +1,61 @@
+[17:08, 15/11/2023] Lucas Cruz: Aula 4 lista 2 exercicio 1
+[17:11, 15/11/2023] Lucas Cruz: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Termos de Segurança Cibernética</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .termo {
+            margin-bottom: 10px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .dica {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+        .termo:hover .dica {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="termo">
+        Firewall
+        <div class="dica">
+            Um firewall é um sistema de segurança que monitora e controla o tráfego de rede, decidindo se deve permitir ou bloquear determinado tráfego baseado em um conjunto pré-estabelecido de regras.
+        </div>
+    </div>
+
+    <div class="termo">
+        VPN
+        <div class="dica">
+            VPN (Rede Privada Virtual) é uma tecnologia que permite a criação de uma conexão segura através da internet, permitindo o acesso seguro a uma rede local a partir de um local remoto.
+        </div>
+    </div>
+
+    <div class="termo">
+        Phishing
+        <div class="dica">
+            Phishing é uma técnica utilizada por cibercriminosos para obter informações confidenciais, como senhas e informações financeiras, disfarçando-se de entidades confiáveis em comunicações eletrônicas.
+        </div>
+    </div>
+
+</body>
+</html>
